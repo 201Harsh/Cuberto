@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 7vw;
+    margin-top: 32px;
+}
+
+
+.nleft,
+.nright {
+    padding: 3vw 10vw;
+    display: flex;
+    align-items: center;
+}
+
+.nleft h1 {
+    font-size: 1.8vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nright {
+    gap: 15px;
+}
+
+.nright h4 {
+    font-size: 1.4vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nright i {
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+
+.slidemenu {
+    height: 100%;
+    width: 60%;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 3vw 5vw;
+    z-index: 10;
+}
+
+.slidemenu1 {
+    height: 100%;
+    width: 40%;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    right: -40%;
+    padding: 3vw 5vw;
+    z-index: 10;
+}
+
+.slidemenu h4:nth-child(2) {
+    margin-top: 13vw;
+}
+
+.slidemenu h4 {
+    font-size: 1.9vw;
+    font-weight: 400;
+    padding: .8vw 2vw;
+    cursor: pointer;
+}
+
+.slidemenu h1 {
+    font-size: 2vw;
+    font-weight: 400;
+    padding: .8vw 2vw;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+}
+
+.slidemenu .ri-arrow-right-line {
+    position: absolute;
+    right: 68%;
+    top: 32%;
+    font-size: 2.4vw;
+    cursor: pointer;
+}
+
+.slidemenu .ri-arrow-right-line:nth-child(3) {
+    position: absolute;
+    right: 68%;
+    top: 40%;
+    font-size: 2.4vw;
+    cursor: pointer;
+}
+
+.slidemenu .ri-arrow-right-line:nth-child(7) {
+    position: absolute;
+    right: 68%;
+    top: 49%;
+    font-size: 2.4vw;
+    cursor: pointer;
+}
+
+.slidemenu .ri-arrow-right-line:nth-child(9) {
+    position: absolute;
+    right: 68%;
+    top: 58%;
+    font-size: 2.4vw;
+    cursor: pointer;
+}
+
+.slidemenu .ri-arrow-right-line:nth-child(11) {
+    position: absolute;
+    right: 68%;
+    top: 66%;
+    font-size: 2.4vw;
+    cursor: pointer;
+}
+
+
+
+.slidemenu h5 {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.slidemenu h5 i:hover {
+    color: #48aae2;
+}
+
+.slidemenu1 h2 {
+    font-size: 1.8vw;
+    position: absolute;
+    top: 30%;
+}
+
+.slidemenu1 h3 {
+    font-size: 1.5vw;
+    position: absolute;
+    top: 38%;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.slidemenu1 h2:nth-child(2) {
+    font-size: 1.8vw;
+    position: absolute;
+    top: 50%;
+}
+
+.slidemenu1 h3:nth-child(3) {
+    font-size: 1.5vw;
+    position: absolute;
+    top: 58%;
+}
+
+.slidemenu1 i {
+    position: absolute;
+    right: 24%;
+    top: 60px;
+    font-size: 2.4vw;
+    cursor: pointer;
+}
+
+.slidemenu1 .ri-arrow-right-up-line {
+    position: absolute;
+    right: 58%;
+    top: 38%;
+    cursor: pointer;
+}
+
+.slidemenu1 .mg {
+    position: absolute;
+    right: 58%;
+    top: 58%;
+    cursor: pointer;
+}
+
+
+.headings {
+    padding: 10vw 12vw;
+    width: 80%;
+    height: 25vw;
+    margin-bottom: 0px;
+}
+
+.headings h4 {
+    margin-top: 52px;
+    font-size: 1.3vw;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.heading {
+    display: flex;
+    gap: 40px;
+}
+
+.heading h1 {
+    font-size: 6vw;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: transparent;
+    -webkit-text-stroke: 2px #000;
+}
+
+.para {
+    height: 13vw;
+    width: 80%;
+    padding: 15vw 12vw;
+}
+
+.para p {
+    font-size: 1.4vw;
+    font-weight: 400;
+}
+
+.fheading {
+    height: 60%;
+    width: 100%;
+    padding: 8vw 12vw;
+}
+
+.fheading h1 {
+    font-size: 6vw;
+    font-weight: 500;
+}
+
+.fheading h1:nth-child(2) {
+    color: transparent;
+    -webkit-text-stroke: 2px #000;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3vw;
+}
+
+.hleft {
+    height: inherit;
+    width: 48%;
+}
+
+.herof {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.elem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.elem h3 {
+    font-size: 1.1vw;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.elem h4 {
+    font-size: 1vw;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.elem h1 {
+    font-size: 7vw;
+    font-family: "Kajiro";
+    font-weight: 100;
+}
+
+
+.hright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: 48%;
+}
+
+.images {
+    height: 90%;
+    width: 90%;
+}
+
+.images img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.btns button {
+    padding: 12px 12px;
+    font-size: 1.4vw;
+    font-weight: 500;
+    height: 100%;
+    width: 50%;
+    border-radius: 100px;
+    background: transparent;
+}
+
+
+.page1 {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.page2 {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+}
+
+.page3 {
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.page4 {
+    height: 100%;
+    width: 100%;
+    background-color: rebeccapurple;
+}
+
+#dev {
+    width: 100%;
+    padding: 5vw 15vw;
+}
+
+#dev h1 {
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;
+}
+
+#dev p {
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+    width: 60%;
+}
+
+#slides {
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.slide {
+    width: 30%;
+}
+
+.slide .img {
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.slide .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide .tag {
+    width: fit-content;
+    border-radius: 100px;
+    padding: 10px 22px;
+    background-color: #f7f7f7;
+    margin: 20px 0;
+}
+
+.slide h3 {
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 3rem 1rem;
+    position: relative;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container div {
+    flex: 1 1 250px;
+    padding: 1rem;
+}
+
+.footer-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-container p,
+.footer-container a {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.footer-container ul {
+    list-style-type: none;
+}
+
+.footer-container ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-container ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-container ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-social a {
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+.footer-social a{
+    font-size: 1.7vw;
+    text-decoration: none;
+}
+.footer-social a:hover{
+    color: #48aae2;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-container div {
+        margin-bottom: 1.5rem;
+    }
+}
